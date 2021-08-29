@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch data</title>
+    <style>
+        
+       .h1a{
+            position : absolute;
+            top : 10%;
+            left : 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class = "center h1a" >Enter the following Details to get your Info.</h1>
+        <div class="logchild">
+        <form action="fetch.php" method = "POST">
+            <label for="Rollno" class = "form-control my-4">Roll No : </label>
+            <input type = "text" class = "texte" name = "Rollno" id = " Rollno" placeholder = "Enter your Roll Number" required>
+            <br> <br> <br>
+            <!-- <label for="name">Name : </label> -->
+            <!-- <input type="text" class = "texte" name = "Name" id = "name" placeholder = "Enter your name" required> -->
+            <!-- <br><br><br> -->
+            <button type="submit" class = "btn btn-primary my-4">Search</button>
+        </form>
+    </div>
+    
+    </div>
+</body>
+</html>

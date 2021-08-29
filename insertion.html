@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+   
+    .addr{
+        width : 30vw;
+        height : 5vh;
+    }
+    
+    /* button{
+        background-color:darkkhaki;
+        height : 3vh;
+        width : 4vw;
+    }
+    button:hover{
+        background-color:forestgreen;
+    } */
+   
+    
+    .logchild{
+        display : block;
+    border : 3px solid black;
+    padding : 3vh;
+
+    margin : 1vh 1vh;
+    position : absolute;
+    top : 15%;
+    left : 25%;
+    background-color: crimson;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <h1 class = "center pos">Student Form</h1>
+    <div class="logchild">
+    <form action="index.php" method="POST">
+        <!-- <form> -->
+        <div class="mb3 ">
+            <label for="Student Name" class = "form-control my-4">First Name * : </label>
+            <input type="text" class = "form-control texte" id = "firstname" name = "first_name" placeholder = "Enter Your Name" required>
+        </div>
+        <br> <br> <br>
+        <div class="mb3 ">
+            <label for="Student Name" class = "form-control my-4">Last Name * : </label>
+            <input type="text" class = "form-control texte" id = "lastname" name = "last_name" placeholder = "Enter Your Name" required>
+        </div>
+        <br> <br> <br>
+        <div class="mb3">
+            <label for="Roll No" class = "form-control my-4">Roll No : </label>
+            <input type="text" class = "form-control texte" id = "Rollno" name = "Rollno" placeholder = "Enter your roll number" required>
+        </div>
+        <br> <br> <br>
+        <div class="mb3">
+            <label for="Branch" class = "form-control my-4">Branch : </label>
+            <input type="text" class = "form-control texte" id = "Branch" name = "Branch" placeholder = "Enter your Branch. Eg-(CSE,AI&ML)" required>
+        </div>
+        <br> <br> <br>
+        <div class="mb3">
+            <label for="Address" class = "form-control my-4">Address : </label>
+            <input type="text" class = "form-control addr" id = "Address" name = "Address" placeholder = "Enter your Address" required>
+        </div>
+        <br>
+        <button type = "submit" id = "Submit" class = "btn btn-primary my-4 ">Submit</button>
+        
+    </form>
+</div>
+</div>
+<!-- <script>
+    function Varun()
+    {
+        window.open('backend.php');
+    }
+</script> -->
+
+
+</body>
+</html>

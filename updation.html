@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Updating Data</title>
+    <style>
+        h2{
+            font-size: 6vh;
+            position : absolute;
+            top : 10%;
+            left : 40%
+
+        }
+        img{
+            position:absolute;
+            bottom : 10%;
+            left : 35%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class = "center h1a" >Enter your roll no.</h2>
+        <div class="logchild">
+        <form action="update.php" method = "POST">
+            <label for="rollno" class = "form-control my-4">Roll.No : </label>
+            <input type="text" class = "texte" name = "Rollno" id = " Rollno" placeholder = "Enter your Roll Number" required>
+            <br><br>
+            <button type="submit" class = "btn btn-primary my-4">Search</button>
+            </form>
+            </div>
+             </div>
+             <br>
+             <img src="update.jpg" alt="update photo" class = "center" width = 500px height = 250px>
+            </div>
+</body>
+</html>
